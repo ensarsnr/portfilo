@@ -14,7 +14,7 @@ function NavBar() {
       {/* Set z-index to 50 */}
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <span className=" self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-          Name<span className="bg-red-400 rounded-sm p-1">Surname</span>
+          Ensar<span className="bg-red-400 rounded-sm p-1">Şener</span>
         </span>
         <button
           onClick={toggleMenu}
