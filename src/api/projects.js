@@ -20,6 +20,13 @@ const projects = [
     img: "https://github.com/antonioru/beautiful-react-hooks/raw/master/logo.png",
     techs: ["README.md"],
   },
+  {
+    name: "Project Management",
+    url: "https://github.com/ensarsnr/project-management",
+    desc: "The project I made to facilitate teamwork and manage projects in a more organized manner.",
+    img: "",
+    techs: ["VueJS", "MongoDB", "Tailwind", "NodeJS", "ExpressJS"],
+  },
 ];
 
 export default projects;
