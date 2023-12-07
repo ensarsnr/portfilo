@@ -55,14 +55,14 @@ function Home() {
               </p>
               <div className="flex justify-start">
                 <Link to="/project">
-                  <button className="bg-[#504B85] sm:text-[15px] text-[10px] px-6 py-2 rounded-lg mt-5 md:mt-10">
+                  <button className="bg-[#504B85] sm:text-[15px] text-[10px] px-6 py-2 rounded-lg mt-8 md:mt-10">
                     My Projects
                   </button>
                 </Link>
 
                 <FaGithub
                   onClick={hrefGithub}
-                  className="hover:bg-slate-800 rounded-full p-2 hover:cursor-pointer md:mt-8 md:ml-10 mt-5 ml-2"
+                  className="hover:bg-slate-800 rounded-full p-2 hover:cursor-pointer md:mt-8 md:ml-10 mt-4 ml-2"
                   size={60}
                 />
 
