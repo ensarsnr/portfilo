@@ -64,16 +64,16 @@ function NavBar() {
             </li>
             <li>
               <Link
-                to="/about"
-                className="block py-2 px-3  bg-red-0 rounded md:bg-transparent md:text-red-0 md:p-0 text-[#7D7D7D] hover:text-white "
+                // to="/pictures"
+                className="cursor-not-allowed block py-2 px-3  bg-red-0 rounded md:bg-transparent md:text-red-0 md:p-0 text-[#7D7D7D] "
               >
-                About
+                Pictures
               </Link>
             </li>
             <li>
               <Link
-                to="/blog"
-                className="block py-2 px-3  bg-red-0 rounded md:bg-transparent md:text-red-0 md:p-0 text-[#7D7D7D] hover:text-white "
+                // to="/blog"
+                className="cursor-not-allowed block py-2 px-3  bg-red-0 rounded md:bg-transparent md:text-red-0 md:p-0 text-[#7D7D7D] "
               >
                 Blog
               </Link>
