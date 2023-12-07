@@ -8,8 +8,10 @@ class Projects extends Component {
       <>
         <NavBar />
         <div className="h-screen bg-[#161616]">
-          <h1 className="text-center text-7xl text-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent p-16">
-            Projects
+          <h1 className="text-center font-extrabold text-7xl text-bold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 p-16">
+            <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">
+              Projects
+            </span>
           </h1>
           <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10 pl-5 pr-5 bg-[#161616]">
             {projects.map((project) => {
@@ -17,13 +19,13 @@ class Projects extends Component {
               return (
                 <div
                   onClick={() => window.open(project.url)}
-                  class="hover:cursor-pointer mb-5 hover:hover:bg-gray-700 border-gray-700 bg-gray-800 relative flex  flex-col overflow-hidden rounded-xl  bg-clip-border text-gray-700 shadow-md"
+                  class="hover:cursor-pointer mb-5 hover:hover:bg-gray-700 border-gray-700 bg-gray-800  flex  flex-col overflow-hidden rounded-xl  bg-clip-border text-gray-700 shadow-md"
                 >
                   <div class="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
                     <img
                       className="w-full h-52 object-cover"
                       src={project.img}
-                      alt="ui/ux review check"
+                      alt="no image uploaded yet"
                     />
                   </div>
                   <div class="p-6">
@@ -38,13 +40,11 @@ class Projects extends Component {
                   <h1 className="text-center text-white text-2xl mb-3">
                     Tech Stack
                   </h1>
-                  <div class="flex justify-between">
-                    {/* Burada tıklanma işi olduğunda mesela react'a tıkladı react'ın blog kısmına yönlendirsin kendi sayfamdaki */}
-                    {/* Daha sonra eklenir */}
+                  <div class="grid grid-cols-3 ">
                     {project.techs.map((e) => (
-                      <span className="hover:bg-black m-2 bg-slate-900 p-1 rounded-full text-slate-100">
+                      <div className="m-1 text-center bg-slate-900 p-1 rounded-full text-slate-100">
                         {e}
-                      </span>
+                      </div>
                     ))}
                   </div>
                 </div>
